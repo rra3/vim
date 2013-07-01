@@ -33,6 +33,8 @@
     set mouse=a                 " Automatically enable mouse usage
     set mousehide               " Hide the mouse cursor while typing
     scriptencoding utf-8
+    set encoding=utf-8          "          necessary to show Unicode glyphs in vim-powerline
+    set laststatus=2            "          Always show the statusline (vim-powerline)
 
     if has ('x') && has ('gui') " On Linux use + register for copy-paste
         set clipboard=unnamedplus
@@ -72,7 +74,7 @@
     endif
 " }
 " Ack! {
-let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column"
+    let g:ackprg="/usr/local/bin/ack -H --nocolor --nogroup --column"
 " }
 
 " CtrlP {

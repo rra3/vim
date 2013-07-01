@@ -1,0 +1,28 @@
+" let Vundle manage Vundle
+" required! 
+ Bundle 'gmarik/vundle'
+
+" My Bundles here:
+
+Bundle 'git://github.com/markabe/bufexplorer.git'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'vim-scripts/Figlet.vim'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'git://github.com/xolox/vim-misc.git'
+Bundle 'git://github.com/xolox/vim-notes.git'
+Bundle 'git://github.com/vim-scripts/hexHighlight.vim.git'
+Bundle 'git://github.com/gerw/vim-HiLinkTrace.git'
+Bundle 'git://github.com/Shougo/unite.vim.git'
+Bundle 'LaTeX-Box-Team/LaTeX-Box'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'tpope/vim-rails'
+" SnipMate {
+	Bundle "MarcWeber/vim-addon-mw-utils"
+	Bundle "tomtom/tlib_vim"
+	Bundle "garbas/vim-snipmate"
+	Bundle "honza/vim-snippets"
+" }
+Bundle 'mileszs/ack.vim'
+Bundle 'kien/ctrlp.vim'
+Bundle 'godlygeek/tabular'
+Bundle 'Lokaltog/vim-powerline'

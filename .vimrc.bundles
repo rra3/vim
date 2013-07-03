@@ -13,9 +13,10 @@ Bundle 'git://github.com/xolox/vim-notes.git'
 Bundle 'git://github.com/vim-scripts/hexHighlight.vim.git'
 Bundle 'git://github.com/gerw/vim-HiLinkTrace.git'
 Bundle 'git://github.com/Shougo/unite.vim.git'
-Bundle 'LaTeX-Box-Team/LaTeX-Box'
+Bundle 'jcf/vim-latex'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-fugitive'
 " SnipMate {
 	Bundle "MarcWeber/vim-addon-mw-utils"
 	Bundle "tomtom/tlib_vim"

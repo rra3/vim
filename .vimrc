@@ -53,7 +53,8 @@
     set history=1000                    " Store a ton of history (default is 20)
     set spell                           " Spell checking on
     set hidden                          " Allow buffer switching without saving
-    set backup                  " Backups are nice ...
+    " set backup                  " Backups are nice ...
+    set shell=zsh\ -l
 " }
 
 " Appearance {
@@ -83,4 +84,8 @@
     let g:ctrlp_cmd = 'CtrlP'
     let g:ctrlp_clear_cache_on_exit = 1
     let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
+" {
+
+" Vim Notes {
+    let g:notes_directories = ['~/Dropbox/Vim Notes']
 " {
